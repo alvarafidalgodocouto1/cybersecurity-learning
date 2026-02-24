@@ -1,26 +1,23 @@
-# 🛡️ Incident Response Notes
+🛡️ Incident Response Notes
 
-> Living document to consolidate **practical knowledge in SOC, Blue Team, and Incident Response**.
-> This file will evolve over time.
+ Living document to consolidate **practical knowledge in SOC, Blue Team, and Incident Response**.
+ This file will evolve over time.
 
----
+ 1. Incident Response Fundamentals
 
-## 📌 1. Incident Response Fundamentals
+🔁 Incident Response Lifecycle
 
-### 🔁 Incident Response Lifecycle
+Preparation
+Identification
+Containment
+Eradication
+Recovery
+Lessons Learned
 
-* **Preparation**
-* **Identification**
-* **Containment**
-* **Eradication**
-* **Recovery**
-* **Lessons Learned**
+ 📝 Personal notes:
 
-## 📝 Personal notes:
 
----
-
-## 🚨 2. Common Types of Incidents
+ 🚨 2. Common Types of Incidents
 
 * Malware infection
 * Phishing / Credential compromise
@@ -30,20 +27,22 @@
 * Insider threat
 * Denial of Service (DoS/DDoS)
 
-## 📝 Real examples / labs:
+📝 Real examples / labs:
 
----
 
-## 🧠 3. SOC Analyst – What to Monitor
 
-### 🔍 Common alerts
+
+
+ 🧠 3. SOC Analyst – What to Monitor
+
+🔍 Common alerts
 
 * Suspicious login activity
 * Malicious file execution
 * Communication with malicious IPs/domains
 * Privileged account creation or abuse
 
-### 📊 Log sources
+ 📊 Log sources
 
 * Endpoint logs
 * Network logs
@@ -55,11 +54,11 @@
 * SIEM:
 * EDR:
 
----
 
-## 🧬 4. MITRE ATT&CK
 
-### 🎯 Tactics
+ 🧬 4. MITRE ATT&CK
+
+ 🎯 Tactics
 
 * Initial Access
 * Execution
@@ -72,33 +71,37 @@
 * Command and Control
 * Exfiltration
 
-## 📝 Techniques studied:
+ 📝 Techniques studied:
 
----
 
-## 🛑 5. Containment, Eradication & Recovery
 
-### 🔒 Containment
+
+ 🛑 5. Containment, Eradication & Recovery
+
+🔒 Containment
 
 * Isolate affected host
 * Block malicious IPs / hashes
 * Disable compromised accounts
 
-### 🧹 Eradication
+🧹 Eradication
 
 * Remove malware
 * Patch vulnerabilities
 
-### 🔄 Recovery
+🔄 Recovery
 
 * Restore systems
 * Monitor for reinfection
 
-## 📝 Personal checklist:
+📝 Personal checklist:
 
----
 
-## ☁️ 6. Cloud Incident Response
+
+
+
+
+ ☁️ 6. Cloud Incident Response
 
 * Compromised IAM accounts
 * Exposed keys or secrets
@@ -111,48 +114,52 @@
 * AWS:
 * Azure:
 
----
 
-## 🐍 7. Python for Incident Response
 
-### Useful scripts
+🐍 7. Python for Incident Response
+
+ Useful scripts
 
 * Log parsing
 * Pattern detection
 * IOC matching
 
-## 📝 Scripts created:
+📝 Scripts created:
 
----
 
-## 🧾 8. Incident Report Template
 
-**Incident Summary:**
 
-**Timeline:**
 
-**Impact:**
 
-**Actions Taken:**
 
-**Recommendations:**
 
----
+🧾 8. Incident Report Template
 
-## 🧠 9. Lessons Learned
+Incident Summary:
+
+Timeline:
+
+Impact:
+
+Actions Taken:
+
+Recommendations:
+
+
+
+🧠 9. Lessons Learned
 
 * What went well:
 * What can be improved:
 * Preventive actions:
 
----
 
-## 📚 10. References & Resources
+
+ 📚 10. References & Resources
 
 * TryHackMe rooms:
 * Articles:
 * Tools:
 
----
 
-📝 *Update this document every time you learn something new or complete a lab.*
+
