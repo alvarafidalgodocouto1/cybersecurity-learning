@@ -1,0 +1,158 @@
+# 🛡️ Incident Response Notes
+
+> Living document to consolidate **practical knowledge in SOC, Blue Team, and Incident Response**.
+> This file will evolve over time.
+
+---
+
+## 📌 1. Incident Response Fundamentals
+
+### 🔁 Incident Response Lifecycle
+
+* **Preparation**
+* **Identification**
+* **Containment**
+* **Eradication**
+* **Recovery**
+* **Lessons Learned**
+
+## 📝 Personal notes:
+
+---
+
+## 🚨 2. Common Types of Incidents
+
+* Malware infection
+* Phishing / Credential compromise
+* Brute force / Password spraying
+* Lateral movement
+* Data exfiltration
+* Insider threat
+* Denial of Service (DoS/DDoS)
+
+## 📝 Real examples / labs:
+
+---
+
+## 🧠 3. SOC Analyst – What to Monitor
+
+### 🔍 Common alerts
+
+* Suspicious login activity
+* Malicious file execution
+* Communication with malicious IPs/domains
+* Privileged account creation or abuse
+
+### 📊 Log sources
+
+* Endpoint logs
+* Network logs
+* Authentication logs
+* Cloud logs
+
+🛠️ Tools used:
+
+* SIEM:
+* EDR:
+
+---
+
+## 🧬 4. MITRE ATT&CK
+
+### 🎯 Tactics
+
+* Initial Access
+* Execution
+* Persistence
+* Privilege Escalation
+* Defense Evasion
+* Credential Access
+* Discovery
+* Lateral Movement
+* Command and Control
+* Exfiltration
+
+## 📝 Techniques studied:
+
+---
+
+## 🛑 5. Containment, Eradication & Recovery
+
+### 🔒 Containment
+
+* Isolate affected host
+* Block malicious IPs / hashes
+* Disable compromised accounts
+
+### 🧹 Eradication
+
+* Remove malware
+* Patch vulnerabilities
+
+### 🔄 Recovery
+
+* Restore systems
+* Monitor for reinfection
+
+## 📝 Personal checklist:
+
+---
+
+## ☁️ 6. Cloud Incident Response
+
+* Compromised IAM accounts
+* Exposed keys or secrets
+* Cloud logging and visibility
+* Rapid response actions
+
+🛠️ Platforms:
+
+* GCP:
+* AWS:
+* Azure:
+
+---
+
+## 🐍 7. Python for Incident Response
+
+### Useful scripts
+
+* Log parsing
+* Pattern detection
+* IOC matching
+
+## 📝 Scripts created:
+
+---
+
+## 🧾 8. Incident Report Template
+
+**Incident Summary:**
+
+**Timeline:**
+
+**Impact:**
+
+**Actions Taken:**
+
+**Recommendations:**
+
+---
+
+## 🧠 9. Lessons Learned
+
+* What went well:
+* What can be improved:
+* Preventive actions:
+
+---
+
+## 📚 10. References & Resources
+
+* TryHackMe rooms:
+* Articles:
+* Tools:
+
+---
+
+📝 *Update this document every time you learn something new or complete a lab.*
